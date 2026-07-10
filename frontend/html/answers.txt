@@ -1,0 +1,427 @@
+1. It tells that its the html file or an html document,
+if you do not use it then the browser still shows the html file as a 
+simple html
+
+2. 
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    Second Question
+    </title>
+    </head>
+    <body>
+    <!--now the entire page content comes in here -->
+
+    
+    </body>
+</html>
+
+3. the lang tells about the language in which the html document is written. If we use the en then we write in the english and everything is shown properly in the browser
+if we use the arabic value then when we type the arabic then everything will be shown in arabic, else it causes problems rendering
+
+4. head is not shown on the browser
+the content in the body is shown on the browser
+in the head we have the links for the other files or the external soruces and the meta tags and in the body we have the headings, paragraphs, main content, header and the footer
+
+5. meta charset utf 8 tells about the character encodign that its in the utf 8 and the other tags are 
+meta name viewport
+meta name description
+meta name thumbnail
+
+6. div is a division, its a block element. we have the content , the headings paragraphs etc in it. Its used to properly separate things from each other
+the span is an inline element, it takes the width it needs not the whle width.
+we just use it to separate something, or style something from the other in the smae place
+
+7.
+block elements take the whole width on the screen,
+example:
+div
+p
+header
+
+the inline elements take width according to how much they want
+span tag
+strong
+italic
+
+8. comments are used to provide some information about the code
+comments are not shown on the browser
+they are not rendered
+they are just used to provide some info 
+
+<!-- this is  a comment -->
+
+9.
+html is hyper text markup langauge, and x html is xml hyper text markup langauge. one has predfined tags and the other has the user made
+
+10.
+no diff..
+
+11. semantic tags are the meaning ful tags, they provide the meaning from there names. no extra attributes needed to describe there purpopse.
+google use it for the SEO 
+
+12. section is a proper full section , part of a page and an article is some part inside the section.
+
+13.
+main tag tellsthat the main content is here. inside the main
+and yes we can have more than one main in the html
+
+14. 
+aside is used for the sidebars,
+
+15. figure is used for the image and figure capition to give some info about it 
+
+16. 
+idk, maybe its used to represent hte time
+
+17. header is used for hte upper part of the website or anything where we have the navigation links or the title etc.
+h1 is used for writing a heading, h1 is the largest heading. 
+yes we can have multiple header tags
+18.
+nav tag is used to make the navigation bar of the websites, inside it we have the logo and the links to other pages etc.
+
+19.
+footer is used to make the bottom fotter bar of the website, in it we have the copyright info , pages link, and also the email, name and adress etc
+20.
+b is used to make a text bold, and i is used to make it italic.
+they are considered bad because they are messier to read. and they do not convay good meaning?
+ use strong 
+
+ and email
+21.
+strong is used to make a text bold
+em is used to give a text some emphasis like make it italic
+
+
+22. 
+maybe when we write something in it there is a mark on it?
+
+23.
+details is used to provide details of something and the summary is used to summarize the details
+
+24.
+dialog is used to write something like a dilogue maybe in italic, idk 
+
+25. 
+in the address we store the address .
+its a semantic tag to store the addresss
+like 221. baker street
+
+26.
+ol list is used to make the ordered list , 1,2,3 etc
+and ul is used to make the unordered list and the list items are shown along with a bullet or disc
+
+27.
+<ol>
+    <li>
+    <ol>
+    <li>
+    here is hte nested list
+    </li>
+     <li>
+    here is hte nested list
+    </li>
+     <li>
+    here is hte nested list
+    </li>
+    </ol>
+    </li>
+</ol>
+
+28.
+idk
+
+29. idk
+
+30. its used to render quotes and take block width
+
+31. idk
+
+32. break, and a paragraph tag
+33. horizontal line is made using it 
+
+
+34. 
+<a href="www.google.com">this is a link</a>
+
+35. 
+href stores the url or the adress where the link will take us 
+
+36. 
+target="_blank"
+
+37.
+target is used to open the link in the new tab 
+
+38.
+give it id and then use the href="#id"
+
+39.
+absolute url is a complete url and relative is a partial url both will take u to the smae place
+D://work/ali/index.html
+./index.html
+
+
+40.
+download attribute downloads something , u just provide the path of what to download and mention download
+
+41. mailto is used to open ur outlook or mail and send mail to someone
+
+42.
+tel:+92 number
+
+43. 
+rel means relation ship
+like link rel stylesheet
+means that the file that is linked is a stylesheet
+
+44.
+<img src="./link-image.jpg"/>
+
+46. all of them
+i use jpg all the time, and pngs they are lightweight and high quality
+
+47.
+raster image when zoom then it pixelates and the vector image do not pixelates
+
+
+48.
+srcset is used to set the src of hte image
+
+49.
+in picture we can have multiple sources of hte images and when one fails to load hten it just loads the other one
+
+50.
+<video>
+<source src="url" controls>
+
+</video>
+
+51.
+<audio>
+<source src="url" controls>
+
+</audio>
+
+
+52. 
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    Second Question
+    </title>
+    </head>
+    <body>
+    <table>
+    <thead>
+    <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    
+    </tr>
+    </tbody>
+    </table>
+
+    
+    </body>
+</html>
+
+53.
+th is used to make the header of the table and its bold
+and the td is not bold and its used to render the value of the specific header for something
+
+54.
+idk
+
+55.
+captain provides extra info abt  tthe figure, here to table
+
+56.
+thead is a semantic tag for making the header of the table
+tbody is a semantic tag for making the body of the table
+tfooter is a semantic tag for making the footer of the table
+
+57.
+colspan tells how many cols to takes
+rowspan tells how many rows to take
+
+58.
+no its not okay to style the web layout using the tables as it would make things messier we have the flex box and the grid form which we can style properly and more easily
+
+59.
+maybe tell colspan?idk
+
+60.
+<form>
+<label>
+User name
+</label>
+<input type="text" placeholder="Enter your user name" >
+<label>
+password
+</label>
+<input type="password" placeholder="Enter your user password" >
+<button>
+Submit
+</button>
+
+</form>
+
+
+61.
+action tell which page to go after submitting the form
+and method tels which method like the GET POST DELETE picture
+
+62.
+get is used to get the data from the server
+and post is used to add data to the server 
+like adding a new user to the describe
+
+63.
+name tells the name of the input, like we can have name like email etcand then we can get the value of the input using this name , this name become the attribute and the value attribuet become the vlaue of this .
+
+id is used to uniquely identify an element.
+
+64.
+lable is used to write a text for hte input fields or the other form and then when we click on it then it triggers the actual inputs
+
+65.
+for tells the id of the element that to triggers
+66.
+text is used to store , its generally used for small texts and the textarea is used for writing the descriptions etc
+
+67.
+text, password, email, tel, file, color, range,  button,  reset, number
+
+68.
+placeholder renders that text inside hte input field thats not selectable but is generally used to provide a helping method that tells what to do with the tag
+
+69.
+required forces that field to be entered before submittign the form
+
+70.
+pattern provides what kinda pattern to write the input in
+
+71.
+min tells the min value in the number, teh max tells the max number abnd the step tells when we click on the up and the low chevrons then how much increment or decrement should happen
+
+
+72.
+radio is used to select one single answers from many
+and check box is used to check multiple answers
+
+73.
+select and options give a dropdown form where u can select an options
+
+74.
+legend is used to sepearate the html tags and it forms a box type, border
+
+75.
+idk never used it 
+
+76.  submit triggers the form submit and button do not trigger the form submit when used inside the form
+
+77.
+do nto validate the field like ujust accept whatever the user writes
+
+
+78.
+form data idk
+
+79.
+autocompolete gives the autocomplete suggestions 
+
+
+80.
+input type=file
+
+81.
+it allows us to select multiple files and upload them
+
+82.
+use the disabled proper
+
+83.
+readonly allows u to just read and do not let u modify and modify wont even allow u to select it 
+
+84. 
+checks the spellings
+
+
+85.
+iframe is used to imbed an html inside html
+
+86. well someone can come and get acces of our web from some other web
+
+87.
+idk
+
+88.
+give permissions for hte devices
+
+
+89.
+copy the embed ifram url from the yt video and use it iside the html 
+
+
+90
+well it tells the crawling robots abt hte web and its elements
+
+91.
+aria-lable these are used for the SEO to provide info abt the tags and the content in it etc.
+
+92.
+role tels that what is the role of the element
+
+93. idk
+
+94. idk
+
+95. idk
+
+96. yes it tells the alternative text in the image
+
+97.
+idk
+
+98. idk
+99. idkk
+
+
+100. 
+script in head ensures that load the script before the content of hte page is loadde and wehen we used it in teh body then it loads it later after the content or with it .
+
+
+101. 
+async means asynchronus, means that dont stuck over here and do something else ill finish and tell u . 
+
+102. idk
+
+103. data- etc attribute are used to make our custom attributes that we mostly used in the testing side 
+
+
+104. idk
+105. idk
+
+106. idkk
+
+107. draggable makes an element dragable
+108.hidden keeps an element in the dom but its hidden the diaply none removes it 
+
+109.
+map area etc is used to embed a map
+
+110. idk
