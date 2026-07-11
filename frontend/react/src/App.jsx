@@ -1,8 +1,8 @@
-import Parent1 from "./components/Round 2 practice/callback/Parent1"
+import TodoList from "./features/TodoList"
 
 const App = () => {
   return (
-    <div><Parent1 /></div>
+    <div><TodoList /></div>
   )
 }
 

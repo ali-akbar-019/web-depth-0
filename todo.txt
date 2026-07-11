@@ -1,0 +1,23 @@
+Redux -- inprogress
+zustand
+typescript
+tanstack react query
+
+ndoe 
+express
+mongodb
+queires
+sql 
+sql queires
+prisma
+postgresql 
+uploading the images, files etc properly.
+-----
+django
+asp .net
+
+----
+dev ops
+docker
+kubernities
+and other devops things , devops is zarorai
