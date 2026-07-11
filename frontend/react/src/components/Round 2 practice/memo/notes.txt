@@ -1,0 +1,8 @@
+
+use call back function ko memoiz karta ha 
+
+or use memo value (result) ko memoize karta ha 
+
+
+use memo meoizes the result of a calculation. it recalculates the value 
+only when its dependencies change, helping avoid expensive computation on every render and improving performance.
