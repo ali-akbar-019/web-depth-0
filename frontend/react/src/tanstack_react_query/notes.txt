@@ -1,0 +1,24 @@
+tanstack query server se data fetch karne ka sab se popular tareeqa hai. ye caching, refetching, loading states, error handling - sab kch automatically handle karta ha .
+
+ye servier state k leye ha, client state(ui state) k leye nahi. Client 
+state k leye redux ya zustand use karte ha .
+
+
+advantages
+- caching: 
+aik bar fetch karo bar bar same data use karo
+
+- background refetching
+data automatically update ho jata ha 
+
+- retries
+api fail to auto retry
+
+- loading states
+is loading , is fetching automatically milte ha 
+
+- error handling
+isError, error automatically milte ha 
+
+-dev tools
+de bugging k leye built in tools
