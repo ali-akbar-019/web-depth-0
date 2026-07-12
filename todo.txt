@@ -1,6 +1,6 @@
-Redux -- inprogress
-zustand
-typescript
+Redux -- kch na kch done
+zustand -- thora sa dekha bs
+typescript 
 tanstack react query
 
 ndoe 
@@ -13,6 +13,14 @@ prisma
 postgresql 
 uploading the images, files etc properly.
 -----
+how to make backend that will handle thousands of users 
+google authentication
+cookies
+tokens
+ye sab b daalo
+email authentication
+two step flow samjo sab ka
+--
 django
 asp .net
 
