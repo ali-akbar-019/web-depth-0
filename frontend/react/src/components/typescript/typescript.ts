@@ -480,3 +480,75 @@ console.log(person3.greet())
 // public name: string; // Sab jagah accessible
 //     private age: number; // Sirf class ke andar
 //     protected email: string; // Class aur children mein
+
+
+//task 1
+interface Product {
+    id: number;
+    name: string;
+    price: number;
+    category?: string;
+}
+let products: Product[] = [
+    {
+        id: 1,
+        name: "product 1",
+        price: 22,
+        category: "cat1"
+    },
+    {
+        id: 2,
+        name: "product 2",
+        price: 32,
+        category: "cat1"
+    },
+    {
+        id: 3,
+        name: "product 3",
+        price: 22,
+        category: "cat2"
+    },
+]
+
+function calcTotal(products: Product[]): number {
+    return products.reduce((p, c) => p + c.price, 0);
+}
+// task 2
+
+function firstElArr<T>(arr: T[]): T {
+    return arr[0]
+}
+
+type ResponseStatus = "success" | "error" | "loading"
+
+interface ApiResponse<T> {
+    data: T;
+    status: ResponseStatus;
+    message?: string;
+}
+
+
+// task 3
+class Store<T> {
+    items: T[]
+
+    constructor(items: T[]) {
+        this.items = items;
+    };
+    //
+    public addItem(item: T): void {
+        this.items.push(item)
+
+    }
+    public removeItem(id: number): void {
+        // @ts-ignore
+        this.items = this.items.filter((item) => item.id != id)
+    }
+    public getItem(id: number): T | undefined {
+        return this.items[id]
+    }
+    public getAllItems(): T[] {
+        return this.items
+    }
+
+}
