@@ -1,8 +1,9 @@
+import Cart from "./features/Cart"
 import TodoList from "./features/TodoList"
 
 const App = () => {
   return (
-    <div><TodoList /></div>
+    <div><Cart /></div>
   )
 }
 
