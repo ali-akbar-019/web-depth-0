@@ -1,13 +1,14 @@
 Redux -- kch na kch done
 zustand -- thora sa dekha bs
-typescript 
-tanstack react query
+typescript --- done
+tanstack react query  -- done
 
 ndoe 
 express
 mongodb
 queires
 sql 
+graph ql
 sql queires
 prisma
 postgresql 
